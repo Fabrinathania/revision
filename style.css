@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header{padding: -1%;
+       height: 5vh;
+       color: white;
+       font-family: 'Dancing Script', cursive;
+       background-image: linear-gradient(to right, #052837, #003f73, #004eb0, #744ddc, #e112eb);
+}
+header>div a{color: white;
+             text-decoration: none;
+}
+header ul> li{display: inline;
+              padding: 2%;
+
+}
+header nav{float: right;
+    width: 20%;
+
+}
+header div{float: left;
+    margin: 1em 0 0 1em;
+}
+body{
+    background-image: url("img/background.png");
+}
+body h1{ color: #e112eb;
+         font-family:'Dancing Script', cursive;
+         text-align: center;
+         padding: 2%;
+         background-image: url("img/rainbow.png");
+         background-repeat:no-repeat;
+         background-position-x: 50%;
+}
+ .ensemble{padding-left: 25%;
+           padding-right: 25%;
+           padding-bottom: 1%;
+ }
+
+main{padding: 1%;
+    font-family:'Dancing Script', cursive;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 3%;
+}
+main  h4{ color:#e112eb;        
+}
+.unicorns figure{display: inline-block;
+                 margin-left: 5px;
+                 margin-right: 5px;
+}
+div figure figcaption{ position: relative;
+                        margin-top: -23px;
+                        padding-left: 63px;
+
+                        background-color: rgba(0, 0, 0, 80%);
+                        color: white;
+
+}
+main div input{
+    width: 220px;
+    height: 30px;
+}
+.btn{background-color: #e112eb;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5%;
+}
+.trouver{
+    display: inline-flex;
+}
+#separator{margin-left: 4%;
+}
+footer{ background-image: linear-gradient(to right, #052837, #003f73, #004eb0, #744ddc, #e112eb);
+        height: 5vh;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 80%;
+}
+
+/* responsive training */
+
+@media ( max-width:800px){
+body{background:plum;
+}
+body h1{color: white; 
+        padding-top: 10%;
+}
+header{height: 7vh;
+}
+header ul> li{display: none;
+}
+header>div{ 
+    width: 100%;
+    text-align: center;
+}
+.unicorns figure{ margin: 0 15% 5% 30% ;
+
+}
+.iframe{ width: 100%;
+}
+main{border-radius: 1%;
+}
+.ensemble{padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+
+#separator{margin-left: 1%;
+}
+main div input{width: 230px;
+               height: 33px;
+}
+.btn{border-radius: 12px;
+    margin-top: 6px;
+    width: 108px; 
+    height: 35px; 
+    background-color: plum;
+}
+.trouver{
+    display: block;
+}
+footer{ padding-top: 10px;
+        padding-left: 550px;
+        height: 6vh;
+}
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
